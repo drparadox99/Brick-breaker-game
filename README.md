@@ -17,20 +17,17 @@ Clean and responsive design with paddle and ball physics.
 
 # Getting Started 
 
-**Dependencies**
+**Environment Requirements**
 
-The game relies on the following libraries:
+Installation with Conda environment : 
 
-SDL2: Main graphics and window management.
-SDL2_image: Handles image loading for textures (bricks, background, etc.).
-SDL2_ttf: Handles fonts for score and text rendering.
-SDL2_mixer: Handles background music and sound effects.
+ - conda create --name home_env python=3.9
+ - conda activate home_env
+ - pip or pip3 install pygame
 
+**How to run the game** : 
 
-**How to compile and run the game with provided makefile** : 
-
-Compile : __make__ <br>
-Run  : __./main__ <br>
+Python main.py 
 
 
 # Known Issues

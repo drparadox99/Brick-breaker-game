@@ -33,12 +33,12 @@ Compile : make <br>
 Run  : ./main <br>
 
 
-**Known Issues**
+# Known Issues
 
 The game window size is fixed.
 Collision detection could be improved for better accuracy.
 
-**License**
+# License
 
 This game is open-source and available under the MIT License. Feel free to use, modify, and distribute it as per the terms of the license.
 

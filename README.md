@@ -29,8 +29,8 @@ SDL2_mixer: Handles background music and sound effects.
 
 **How to compile and run the game with provided makefile** : 
 
-Compile : make <br>
-Run  : ./main <br>
+Compile : __make__ <br>
+Run  : __./main__ <br>
 
 
 # Known Issues

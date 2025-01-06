@@ -1,0 +1,13 @@
+gcc -c jeux.c -lSDL2 -lSDL2_image -lSDL_ttf
+gcc -c erreurMessage.c -lSDL2 -lSDL2_image -lSDL_ttf
+gcc -c Init.c -lSDL2 -lSDL2_image -lSDL_ttf
+gcc -c libPointeur.c -lSDL2 -lSDL2_image -lSDL_ttf
+
+gcc -o jeux jeux.o erreurMessage.o Init.o libPointeur.o -lSDL2 -lSDL2_image -lSDL_ttf
+
+
+Compression
+└──╼ $tar -zcvf ProjetC.tar ProjetC
+
+Decompression
+tar -zxvf votre_archive.tar.gz

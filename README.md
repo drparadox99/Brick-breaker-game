@@ -29,6 +29,16 @@ SDL2_mixer: Handles background music and sound effects.
 
 **How to compile and run the game with provided makefile** : 
 
-Compile : make \n
-Run  : ./main
+Compile : make <br>
+Run  : ./main <br>
+
+
+**Known Issues**
+
+The game window size is fixed.
+Collision detection could be improved for better accuracy.
+
+**License**
+
+This game is open-source and available under the MIT License. Feel free to use, modify, and distribute it as per the terms of the license.
 
